@@ -1,8 +1,8 @@
 <mat-toolbar>
-    <button mat-icon-button class="navbar-btn">
+    <button mat-icon-button class="navbar-btn" (click)="drawer.toggle()">
         <mat-icon>menu</mat-icon>
     </button>
-    <span>PGEAR</span>
+    <span routerLink="/home" style="cursor: pointer;">PGEAR</span>
     <span class="spacer"></span>
     <span class="input">
         <mat-form-field class="form-field">
@@ -14,32 +14,36 @@
         </mat-form-field>
     </span>
     <span class="spacer"></span>
+    <button mat-icon-button class="navbar-btn" [routerLink]="['cart']">
+        <mat-icon [matBadge]="numberOfItems" matBadgeColor="accent">shopping_cart</mat-icon>
+    </button>
     <button mat-stroked-button class="navbar-btn">Đăng Ký</button>
     <button mat-flat-button color="primary" class="navbar-btn">Đăng Nhập</button>
 </mat-toolbar>
-
-<div class="product-title">
-    <h2>Bàn phím AKKO</h2>
-</div>
-
-<div class="card-container">
-    <mat-card class="card" *ngFor="let product of listProducts">
-        <img mat-card-image [src]="product.image" [alt]="product.description">
-        <mat-card-header>
-            <mat-card-title class="product-name">{{product.name}}</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-            <p class="product-description">{{product.description}}</p>
-            <p>{{product.price | currency:'VND':true}}</p>
-        </mat-card-content>
-        <div class="card-spacer"></div>
-        <mat-card-actions class="card-footer">
-            <div *ngIf="!product.status; else addHang" class="center">HẾT HÀNG</div>
-            <ng-template #addHang>
-                <button mat-icon-button>
-                    <mat-icon>add_shopping_cart</mat-icon>
-                </button>
-            </ng-template>
-        </mat-card-actions>
-    </mat-card>
-</div>
+<mat-drawer-container class="sidenav-container" autosize>
+    <mat-drawer #drawer class="sidenav" mode="side" opened>
+        <div class="sidenav-component-container">
+            <div class="brand-container">
+                <div>
+                    <button mat-button [routerLink]="['akko_gears']">Bàn phím Akko</button>
+                </div>
+                <div>
+                    <button mat-button [routerLink]="['leopold-gears']">Bàn phím Leopold</button>
+                </div>
+                <div>
+                    <button mat-button>Bàn phím 1</button>
+                </div>
+                <div>
+                    <button mat-button>Bàn phím 2</button>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            <div>
+                V 1.0.0
+            </div>
+        </div>
+    </mat-drawer>
+    <div class="sidenav-content">
+        <router-outlet></router-outlet>
+    </div>
+</mat-drawer-container>

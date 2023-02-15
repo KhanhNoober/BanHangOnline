@@ -1,0 +1,39 @@
+.akko-gears-container,
+.leopold-gears-container {
+    display: grid;
+    max-width: calc(250px * 5 + 1rem * 5);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        width: 100%;
+    }
+}
+
+.category {
+    width: 100%;
+
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+        margin-left: 0.5rem;
+
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+}

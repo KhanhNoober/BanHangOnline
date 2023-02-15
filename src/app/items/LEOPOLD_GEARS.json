@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Bàn phím Leopold FC900RPD Bluetooth White Grey",
+        "price": 3190000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC900RPD_Bluetooth_White_Grey.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    },
+    {
+        "id": 2,
+        "name": "Bàn phím Leopold FC900RPD Bluetooth Blue Grey",
+        "price": 3190000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC900RPD_Bluetooth_Blue_Grey.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    },
+    {
+        "id": 3,
+        "name": "Bàn Phím Leopold FC900R Bluetooth Dark Blue Navy",
+        "price": 3190000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC900R_Bluetooth_Dark_Blue_Navy.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    },
+    {
+        "id": 4,
+        "name": "Bàn phím Leopold FC660MPD Bluetooth Blue Grey",
+        "price": 2790000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC660MPD_Bluetooth_Blue_Grey.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    },
+    {
+        "id": 5,
+        "name": "Bàn phím Leopold FC980MPD Bluetooth Blue Grey",
+        "price": 3290000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC980MPD_Bluetooth_Blue_Grey.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    },
+    {
+        "id": 6,
+        "name": "Bàn phím Leopold FC750RPD Bluetooth White Grey",
+        "price": 2890000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC750RPD_Bluetooth_White_Grey.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": false
+    },
+    {
+        "id": 7,
+        "name": "Bàn Phím Leopold FC750RPD Bluetooth White Mint",
+        "price": 2890000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC750RPD_Bluetooth_White_Mint.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    },
+    {
+        "id": 8,
+        "name": "Bàn phím Leopold FC750RPD Bluetooth Blue Grey",
+        "price": 2890000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC750RPD_Bluetooth_Blue_Grey.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    },
+    {
+        "id": 9,
+        "name": "Bàn Phím Leopold FC750RPD Bluetooth Dark Blue Navy",
+        "price": 2890000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC750RPD_Bluetooth_Dark_Blue_Navy.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": false
+    },
+    {
+        "id": 10,
+        "name": "Bàn phím Leopold FC660R Bluetooth Sweden White Case",
+        "price": 2690000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC660R_Bluetooth_Sweden_White.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    },
+    {
+        "id": 11,
+        "name": "Bàn phím Leopold FC660MPD Bluetooth White Grey",
+        "price": 3100000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC660MPD_Bluetooth_White_Grey.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": false
+    },
+    {
+        "id": 12,
+        "name": "Bàn phím Leopold FC900RPD Bluetooth Light Pink",
+        "price": 3470000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC900RPD_Bluetooth_Light_Pink.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": false
+    },
+    {
+        "id": 13,
+        "name": "Bàn phím Leopold FC750RPD Bluetooth Light Pink",
+        "price": 3270000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC750RPD_Bluetooth_Light_Pink.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    },
+    {
+        "id": 14,
+        "name": "Bàn phím Leopold FC660MPD Bluetooth Light Pink",
+        "price": 3050000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC660MPD_Bluetooth_Light_Pink.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    },
+    {
+        "id": 15,
+        "name": "Bàn phím Leopold FC750R Bluetooth Ash Yellow",
+        "price": 3370000,
+        "image": "../assets/LEOPOLD/LEOPOLD_FC750R_Bluetooth_Ash_Yellow.webp",
+        "description": "Bàn phím cơ AKKO 3098S One Piece là chiếc bàn phím cơ sở hữu thiết kế bắt mắt và độc đáo trong phân khúc bàn phím 2-3 triệu. Thiết kế bàn phím nổi bật với kí tự được làm mới theo phong cách hoạt hình One Piece, trải nghiệm đánh máy mượt mà và hệ thống đèn LED sống động đã tạo nên một gaming gear đáng mua cho game thủ.",
+        "status": true
+    }
+]

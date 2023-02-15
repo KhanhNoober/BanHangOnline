@@ -1,0 +1,19 @@
+<div class="center">
+    <div>
+        <div class="category">
+            <div class="title">Bàn phím AKKO</div>
+            <div class="akko-gears-container">
+                <app-card *ngFor="let akkoGear of AKKOGEARS" [product]="akkoGear"
+                    (addCartCallback)="addCartAkko($event)" (removeCartCallback)="removeCartAkko($event)"></app-card>
+            </div>
+        </div>
+        <div class="category">
+            <div class="title">Bàn phím Leopold</div>
+            <div class="leopold-gears-container">
+                <app-card *ngFor="let leopoldGear of LEOPOLDGEARS" [product]="leopoldGear"
+                    (addCartCallback)="addCartLeopold($event)"
+                    (removeCartCallback)="removeCartLeopold($event)"></app-card>
+            </div>
+        </div>
+    </div>
+</div>

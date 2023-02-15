@@ -1,0 +1,24 @@
+<mat-card class="card">
+    <img mat-card-image [src]="product.image" [alt]="product.description">
+    <mat-card-header>
+        <mat-card-title class="product-name">{{product.name}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p class="product-description">{{product.description}}</p>
+        <p>{{product.price | currency:'VND':true}}</p>
+    </mat-card-content>
+    <div class="card-spacer"></div>
+    <mat-card-actions class="card-footer">
+        <div *ngIf="!product.status; else addHang" class="center">HẾT HÀNG</div>
+        <ng-template #addHang>
+            <button *ngIf="!product.isAdded; else huyHang" mat-icon-button color="accent" (click)="addCart(product)">
+                <mat-icon>add_shopping_cart</mat-icon>
+            </button>
+            <ng-template #huyHang>
+                <button mat-icon-button color="warn" (click)="removeCart(product)">
+                    <mat-icon>remove_shopping_cart</mat-icon>
+                </button>
+            </ng-template>
+        </ng-template>
+    </mat-card-actions>
+</mat-card>

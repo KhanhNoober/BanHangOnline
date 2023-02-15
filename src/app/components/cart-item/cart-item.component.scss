@@ -1,0 +1,51 @@
+.card-spacer {
+    flex: 1 1 auto;
+}
+
+.card {
+    $height: 100px;
+    $padding: 1rem;
+
+    height: calc($height - #{$padding * 2});
+    width: 100%;
+
+    margin-top: 1rem;
+
+    img {
+        height: $height;
+        width: $height;
+
+        border-radius: inherit;
+        margin-right: 1rem;
+    }
+}
+
+.card {
+    width: calc(100% - 2rem);
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.card-footer>span {
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0rem 0.5rem;
+}
+
+.price,
+.price>p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

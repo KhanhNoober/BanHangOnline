@@ -1,0 +1,7 @@
+<div class="center">
+    <h1>Bàn phím Leopold</h1>
+</div>
+<div class="card-container">
+    <app-card *ngFor="let gear of LEOPOLDGEARS" [product]="gear" (addCartCallback)="addCart($event)"
+        (removeCartCallback)="removeCart($event)"></app-card>
+</div>

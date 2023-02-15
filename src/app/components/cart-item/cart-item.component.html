@@ -1,0 +1,17 @@
+<mat-card class="card">
+    <img mat-card-image [src]="product.image" [alt]="product.description">
+    <mat-card-header>
+        <mat-card-title class="product-name">{{product.name}}</mat-card-title>
+    </mat-card-header>
+    <span class="card-spacer"></span>
+    <span>
+        <mat-card-content class="price">
+            <p>{{product.price * quantity | currency:'VND':true}}</p>
+        </mat-card-content>
+        <mat-card-actions class="card-footer">
+            <button mat-stroked-button (click)="onDecrement()">-</button>
+            <span> {{quantity}} </span>
+            <button mat-stroked-button (click)="onIncrement()">+</button>
+        </mat-card-actions>
+    </span>
+</mat-card>

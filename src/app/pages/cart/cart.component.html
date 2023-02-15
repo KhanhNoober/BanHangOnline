@@ -1,0 +1,13 @@
+<div *ngIf="!(carts.length == 0); else empty">
+    <app-cart-item *ngFor="let product of carts" [product]="product.product" [quantity]="product.quantity"
+        (increment)="onIncrement($event)" (decrement)="onDecrement($event)"></app-cart-item>
+    <div class="total-price">
+        <span>Tổng tiền: {{totalPrice$ | async | currency:"VND"}}</span>
+        <span class="btn-container">
+            <button routerLink="/payment" mat-flat-button color="accent">Thanh Toán</button>
+        </span>
+    </div>
+</div>
+<ng-template #empty>
+    <div class="empty">Cart is empty</div>
+</ng-template>
